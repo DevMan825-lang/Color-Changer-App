@@ -1,0 +1,142 @@
+.child-container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%); 
+}
+input[type=text]{
+  width:250px;
+  height:100px;
+  background:black;
+  border:none;
+  border-radius:4px; 
+  color:white;
+  font-family: "Parkinsans", sans-serif;
+  font-size:20px;
+  margin-bottom:10px;
+  text-transform: capitalize;
+  border:2px solid rgb(143, 122, 122);
+}
+#btn{
+  width:80px;
+  height:40px;
+  background: #98f5a3;
+  border:none;
+  border-radius:4px;
+ font-family: "Oswald", sans-serif;
+ font-size:20px;
+  padding:1px;
+  position:fixed; 
+  top:0;
+  z-index:-1;
+  margin-top: 112px;
+  border:2px solid rgb(143, 122, 122);
+}
+#btn:active{
+  background-color: bisque;
+}
+#mybtn{
+  background:white;
+  float:right;
+  background:black;
+  color:white;
+  border:none;
+  font-size:40px;
+}
+#mybtn:hover{
+  color: antiquewhite;
+}
+#child1{
+  width:250px;
+  height:250px;
+  background:black;
+  color:white;
+  padding:2px;
+  border-radius:4px;
+  z-index:1;
+  text-transform:capitalize; 
+  overflow-y:scroll;
+  visibility:hidden;
+  border:2px solid rgb(143, 122, 122);
+  border-radius: 4px;
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:20px;
+}
+h3:hover{
+  color: rgb(178, 224, 236);
+}
+h1{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media(max-width:768px){
+  input[type=text]{
+    width:250px;
+    height:100px;
+    background:black;
+    border:none;
+    border-radius:4px; 
+    color:white;
+    font-family: "Parkinsans", sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+    text-transform: capitalize;
+    border:2px solid rgb(143, 122, 122);
+  }
+  #btn{
+    width:80px;
+    height:40px;
+    background: #98f5a3;
+    border:none;
+    border-radius:4px;
+   font-family: "Oswald", sans-serif;
+   font-size:20px;
+    padding:1px;
+    position:fixed; 
+    top:0;
+    z-index:-1;
+    margin-top: 112px;
+    border:2px solid rgb(143, 122, 122);
+  }
+  #btn:active{
+    background-color: bisque;
+  }
+  #mybtn{
+    background:white;
+    float:right;
+    background:black;
+    color:white;
+    border:none;
+    font-size:40px;
+  }
+  #mybtn:hover{
+    color: antiquewhite;
+  }
+  #child1{
+    width:250px;
+    height:250px;
+    background:black;
+    color:white;
+    padding:2px;
+    border-radius:4px;
+    z-index:1;
+    text-transform:capitalize; 
+    overflow-y:scroll;
+    visibility:hidden;
+    border:2px solid rgb(143, 122, 122);
+    border-radius: 4px;
+  }
+  h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:20px;
+  }
+  h3:hover{
+    color: rgb(178, 224, 236);
+  }
+  h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
